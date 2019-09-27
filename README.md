@@ -5,7 +5,7 @@
 Raspberry pi embedded sources of nimbus
 
 # Authors
-Markus Proeller - Javascript classes
+Markus Proeller
 
 See also the list of contributors who participated in this project.
 
