@@ -6,13 +6,13 @@ Raspberry pi embedded sources of nimbus
 
 # installation
 Follow these steps to install the latest stable version of nimbus userland
-1. update to bleeding edge kernel (sudo rpi-update)
+1. update to bleeding edge kernel (`sudo rpi-update`)
 2. add nimbus apt repository
      - add line `deb http://apt.pieye.org/debian/ nimbus-stable main` to /etc/apt/sources.list
-     - wget -O - -q http://apt.pieye.org/apt.pieye.org.gpg.key | sudo apt-key add -
-     - sudo apt-get update
-3. add line `dtoverlay==irs1125` 
-4. sudo apt-get install nimbus-server
+     - `wget -O - -q http://apt.pieye.org/apt.pieye.org.gpg.key | sudo apt-key add -`
+     - `sudo apt-get update`
+3. add line `dtoverlay==irs1125` to /boot/config.txt
+4. `sudo apt-get install nimbus-server`
 
 # Authors
 Markus Proeller
