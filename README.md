@@ -12,7 +12,7 @@ Follow these steps to install the latest stable version of nimbus userland
      - `wget -O - -q http://apt.pieye.org/apt.pieye.org.gpg.key | sudo apt-key add -`
      - `sudo apt-get update`
 3. add line `dtoverlay=irs1125` to /boot/config.txt
-4. `sudo apt-get install nimbus-server`
+4. `sudo apt-get install nimbus-server` or `sudo apt-get install libnimbus-dev`
 
 # Authors
 Markus Proeller
