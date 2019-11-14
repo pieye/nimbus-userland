@@ -13,6 +13,7 @@ Follow these steps to install the latest stable version of nimbus userland
      - `sudo apt-get update`
 3. add line `dtoverlay=irs1125` to /boot/config.txt
 4. `sudo apt-get install nimbus-server` or `sudo apt-get install libnimbus-dev`
+5. reboot the device
 
 # Authors
 Markus Proeller
